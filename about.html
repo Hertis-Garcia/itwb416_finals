@@ -26,32 +26,265 @@
 
       <nav class="header-nav">
         <a href="about.html" title="About CICS">About Us</a>
-        <a href="index.html#admissions" title="Go to Admissions Page"
-          >Admissions</a
-        >
-        <a href="index.html#faculty" title="Meet the CICS Faculty">Faculty</a>
-        <a href="index.html#program" title="Know about CICS' Programs"
-          >Program</a
-        >
+        <a href="#admissions" title="Go to Admissions Page">Admissions</a>
+        <a href="faculty.html" title="Meet the CICS Faculty">Faculty</a>
+        <a href="#program" title="Know about CICS' Programs">Program</a>
         <img src="images/icon.jpg" alt="User Icon" />
       </nav>
     </header>
 
     <main>
-      <!-- paragraph section -->
-      <section class="about-hero">
-        <h2>About ITCSpace</h2>
+      <section class="about-section">
+        <h2 id="about-hero-title">About ITCSpace</h2>
         <p>
           ITCSpace is a student-driven project dedicated to sharing resources,
           announcements, and projects from the College of Information and
-          Computer Studies of De La Salle University - Dasmarinas. This
-          website's aim is to enhance the academic experience of CICS students
-          by providing a centralized platform for information dissemination and
+          Computer Studies of De La Salle University - Dasmariñas. This website
+          aims to enhance the academic experience of CICS students by providing
+          a centralized platform for information dissemination and
           collaboration.
         </p>
       </section>
 
-      <!-- dev cards -->
+      <div class="about-grid" role="region" aria-label="College information">
+        <section class="about-section" id="college-profile">
+          <h2>College Profile</h2>
+          <p>
+            The College of Information and Computer Studies (CICS) develops
+            industry-ready technology professionals through rigorous
+            instruction, hands-on projects, and collaboration with industry
+            partners.
+          </p>
+        </section>
+
+        <section class="about-section" id="leadership">
+          <h2>Leadership</h2>
+
+          <div class="leadership-container">
+            <!-- Horizontal row of all leaders -->
+            <div class="leadership-row">
+              <div class="leader-profile">
+                <div class="leader-photo">
+                  <img src="images/dev-placeholder.jpg" alt="Dean Photo" />
+                </div>
+                <div class="leader-name">Prof. Juan Dela Cruz</div>
+                <div class="leader-title">College Dean</div>
+              </div>
+
+              <div class="leader-profile">
+                <div class="leader-photo">
+                  <img src="images/dev-placeholder.jpg" alt="Prof. Juan" />
+                </div>
+                <div class="leader-name">Prof. Juan Dela Cruz</div>
+                <div class="leader-title">
+                  Program Chair — Software Engineering
+                </div>
+              </div>
+
+              <div class="leader-profile">
+                <div class="leader-photo">
+                  <img src="images/dev-placeholder.jpg" alt="Prof. Ana" />
+                </div>
+                <div class="leader-name">Prof. Juan Dela Cruz</div>
+                <div class="leader-title">Program Chair — Web Development</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="about-section" id="mission-vision">
+          <h2>Mission, Vision, & Core Values</h2>
+          <h3>Vision</h3>
+          <p>
+            To be a leading institution in Information and Computer Studies
+            producing globally competent, ethical, and innovative IT
+            professionals.
+          </p>
+          <br />
+          <h3>Mission</h3>
+          <p>
+            To provide quality IT education that integrates theory and practice,
+            fosters innovation, and encourages collaboration and lifelong
+            learning.
+          </p>
+          <br />
+          <h3>Core Values</h3>
+          <ul>
+            <div class="values-row">
+              <li>Excellence</li>
+              <li>Innovation</li>
+              <li>Integrity</li>
+            </div>
+
+            <div class="values-row">
+              <li>Collaboration</li>
+              <li>Service</li>
+            </div>
+          </ul>
+        </section>
+
+        <section class="about-section" id="history">
+          <h2>History of the Department</h2>
+          <p>
+            Founded as part of the university’s expansion into technology
+            education, the department has grown into a dynamic academic
+            community with strong partnerships and a legacy of producing capable
+            IT graduates.
+          </p>
+        </section>
+
+        <section class="about-section" id="dean-message">
+          <h2>Message from the Dean</h2>
+          <p>
+            “At CICS, we believe in empowering students with the skills, values,
+            and mindset needed to thrive in the digital world. Together, we
+            build a community that inspires innovation and leadership.” —
+            <strong>Dr. Juan Dela Cruz</strong>
+          </p>
+        </section>
+
+        <section class="about-section" id="org-structure">
+          <h2>Organizational Structure</h2>
+          <ul>
+            <li>College Dean</li>
+            <li>Program Heads</li>
+            <li>
+              Faculty Groups (Software Engineering, Web Development, Data
+              Science, Networks & Security, Database)
+            </li>
+            <li>Administrative & Support Staff</li>
+          </ul>
+        </section>
+
+        <section class="about-section" id="accreditations">
+          <h2>Accreditations & Affiliations</h2>
+          <p>
+            We maintain partnerships and accreditations with national and
+            industry bodies:
+          </p>
+
+          <div class="badges" aria-hidden="true">
+            <span class="badge">CHED</span>
+            <span class="badge">Local Accrediting Body</span>
+            <span class="badge">Industry Partners</span>
+            <span class="badge">Technology Organizations</span>
+          </div>
+
+          <div class="spacer-sm"></div>
+
+          <div
+            class="accordion"
+            id="accreditation-accordion"
+            role="tablist"
+            aria-multiselectable="true"
+          >
+            <div class="accordion-item">
+              <div
+                class="accordion-header"
+                data-target="acc-1"
+                role="button"
+                aria-expanded="false"
+                aria-controls="acc-1"
+                tabindex="0"
+              >
+                <h4>Commission on Higher Education (CHED)</h4>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M6 9l6 6 6-6"
+                    fill="none"
+                    stroke="#0b5b34"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div id="acc-1" class="accordion-body" role="region">
+                <p class="accordion-text">
+                  Program approvals, compliance to CHED standards, and periodic
+                  program monitoring.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div
+                class="accordion-header"
+                data-target="acc-2"
+                role="button"
+                aria-expanded="false"
+                aria-controls="acc-2"
+                tabindex="0"
+              >
+                <h4>Accrediting Bodies</h4>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M6 9l6 6 6-6"
+                    fill="none"
+                    stroke="#0b5b34"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div id="acc-2" class="accordion-body" role="region">
+                <p class="accordion-text">
+                  Details on program accreditation levels, renewal dates, and
+                  quality assurance procedures are maintained by the College
+                  Office.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div
+                class="accordion-header"
+                data-target="acc-3"
+                role="button"
+                aria-expanded="false"
+                aria-controls="acc-3"
+                tabindex="0"
+              >
+                <h4>Industry Partners</h4>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M6 9l6 6 6-6"
+                    fill="none"
+                    stroke="#0b5b34"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div id="acc-3" class="accordion-body" role="region">
+                <p class="accordion-text">
+                  We collaborate with banks, software firms, and local tech
+                  organizations to provide internships, capstone sponsorships,
+                  and guest lectures.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
       <section class="dev-grid" aria-label="Developers">
         <article class="dev-card">
           <img src="images/dev-placeholder.jpg" alt="Developer 1" />
@@ -86,8 +319,42 @@
     </main>
 
     <footer>
-      <p>&copy; 2025 - ITCSpace</p>
+      <p class="site-footer">© 2025 - ITCSpace</p>
     </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const headers = Array.from(
+          document.querySelectorAll(".accordion-header")
+        );
+        headers.forEach(function (h) {
+          function toggle() {
+            const targetId = h.getAttribute("data-target");
+            const body = document.getElementById(targetId);
+            const isOpen =
+              body && window.getComputedStyle(body).display === "block";
+            document.querySelectorAll(".accordion-body").forEach(function (b) {
+              b.style.display = "none";
+              const prev = b.previousElementSibling;
+              if (prev) prev.setAttribute("aria-expanded", "false");
+            });
+            if (body && !isOpen) {
+              body.style.display = "block";
+              h.setAttribute("aria-expanded", "true");
+            } else if (body) {
+              h.setAttribute("aria-expanded", "false");
+            }
+          }
+          h.addEventListener("click", toggle);
+          h.addEventListener("keydown", function (e) {
+            if (e.key === "Enter" || e.key === " ") {
+              e.preventDefault();
+              toggle();
+            }
+          });
+        });
+      });
+    </script>
 
     <script src="script.js"></script>
   </body>
