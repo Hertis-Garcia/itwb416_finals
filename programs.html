@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Programs — ITCSpace</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo.jpg" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .program-grid {
+        width: 92%;
+        max-width: 1200px;
+        margin: 1.5rem auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+        align-items: start;
+      }
+
+      @media (max-width: 880px) {
+        .program-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .program-column {
+        background: #116143;
+        color: #ffffff;
+        padding: 1rem;
+        border-radius: 12px;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+
+      .programs-hero h1 {
+        margin: 0 0 0.5rem 0;
+        background: #167a52;
+        display: inline-block;
+        padding: 0.28rem 0.65rem;
+        border-radius: 6px;
+      }
+
+      .program-column h2 {
+        margin: 0 0 0.5rem 0;
+        background: #1a8558;
+        display: inline-block;
+        padding: 0.28rem 0.65rem;
+        border-radius: 6px;
+      }
+
+      /* Section titles */
+      .program-column .section-title {
+        margin-top: 0.9rem;
+        margin-bottom: 0.4rem;
+        color: #dfffee;
+        font-weight: 700;
+      }
+
+      .program-column p,
+      .program-column li {
+        color: #e1fff0;
+        line-height: 1.6;
+      }
+
+      .curriculum {
+        background: rgba(255, 255, 255, 0.08);
+        padding: 0.8rem;
+        border-radius: 8px;
+        margin-bottom: 0.6rem;
+      }
+
+      .curriculum ul {
+        padding-left: 1.05rem;
+        margin-top: 0.5rem;
+        color: #e1fff0;
+      }
+
+      .career-list {
+        background: rgba(255, 255, 255, 0.05);
+        padding: 0.8rem;
+        border-radius: 8px;
+      }
+
+      .muted-note {
+        font-size: 0.92rem;
+        color: rgba(255, 255, 255, 0.85);
+      }
+
+      @media (max-width: 520px) {
+        .programs-hero h1 {
+          font-size: 1.3rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-left">
+        <a href="index.html" title="Go to Homepage">
+          <img src="images/logo.jpg" alt="Logo" />
+        </a>
+        <h1>
+          <a
+            href="index.html"
+            title="Go to Homepage"
+            style="text-decoration: none; color: inherit"
+            >ITCSpace</a
+          >
+        </h1>
+      </div>
+
+      <nav class="header-nav">
+        <a href="about.html" title="About CICS">About Us</a>
+        <a href="#admissions" title="Go to Admissions Page">Admissions</a>
+        <a href="faculty.html" title="Meet the CICS Faculty">Faculty</a>
+        <a href="programs.html" title="Know about CICS' Programs">Program</a>
+        <img src="images/icon.jpg" alt="User Icon" />
+      </nav>
+    </header>
+
+    <main>
+      <section class="programs-hero">
+        <h1>CICS — Academic Programs (BSIT & BSCS)</h1>
+      </section>
+
+      <div class="program-grid" role="main" aria-label="Programs grid">
+        <!-- BSIT section -->
+        <article class="program-column" id="bsit">
+          <h2>BS Information Technology (BSIT)</h2>
+
+          <div class="section-title">Program Description</div>
+          <p>
+            The BSIT program trains students in practical information technology
+            skills: systems administration, network management, software tools,
+            and applied computing. Emphasis is placed on hands-on projects,
+            industry-standard tools, and preparing graduates for implementation
+            and support roles in organizations.
+          </p>
+
+          <div class="section-title">Curriculum Overview</div>
+          <div class="curriculum">
+            <strong>Core areas:</strong>
+            <ul>
+              <li>Programming & Web Development</li>
+              <li>Database Systems & Administration</li>
+              <li>Networking & System Administration</li>
+              <li>Cloud Fundamentals & DevOps basics</li>
+              <li>
+                Capstone: Implementing IT solutions for real-world clients
+              </li>
+            </ul>
+            <p class="muted-note">
+              Sample sequencing: Foundation courses (years 1–2) → specialization
+              & labs (year 3) → capstone & internships (year 4).
+            </p>
+          </div>
+
+          <div class="section-title">Career Paths</div>
+          <div class="career-list">
+            <ul>
+              <li>IT Support / Helpdesk Engineer</li>
+              <li>Network Administrator</li>
+              <li>Database Administrator (entry)</li>
+              <li>Systems Analyst / IT Operations</li>
+              <li>Cloud Support Engineer / DevOps Associate</li>
+              <li>Web & Application Support</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- BSCS section -->
+        <article class="program-column" id="bscs">
+          <h2>BS Computer Science (BSCS)</h2>
+
+          <div class="section-title">Program Description</div>
+          <p>
+            BSCS focuses on computational theory, algorithms, and software
+            engineering. Students develop strong foundations in programming,
+            data structures, algorithms, and software design along with
+            opportunities for research, advanced topics (AI, data science), and
+            capstone projects.
+          </p>
+
+          <div class="section-title">Curriculum Overview</div>
+          <div class="curriculum">
+            <strong>Core areas:</strong>
+            <ul>
+              <li>Programming, Data Structures & Algorithms</li>
+              <li>Software Engineering & System Design</li>
+              <li>Theory of Computation & Discrete Math</li>
+              <li>
+                Optional tracks: Artificial Intelligence, Data Science,
+                Cybersecurity
+              </li>
+              <li>
+                Capstone: Software engineering project with industry or research
+                focus
+              </li>
+            </ul>
+            <p class="muted-note">
+              Sample sequencing: Foundations (years 1–2) → advanced algorithms &
+              electives (year 3) → capstone & internship (year 4).
+            </p>
+          </div>
+
+          <div class="section-title">Career Paths</div>
+          <div class="career-list">
+            <ul>
+              <li>Software Engineer / Developer</li>
+              <li>
+                Machine Learning Engineer / Data Scientist (with elective focus)
+              </li>
+              <li>Systems Architect / Backend Engineer</li>
+              <li>Quality Assurance / Test Engineer</li>
+              <li>Security Analyst (with electives)</li>
+              <li>Research & Development roles or graduate studies</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+      <!-- Optional: single wide curriculum table or download link (kept minimal here) -->
+      <div style="width: 92%; max-width: 1200px; margin: 1rem auto 2rem auto">
+        <p class="muted-note">
+          Want a detailed semester-by-semester curriculum table or PDF download?
+          I can add a full curriculum table (per year/semester) or create a
+          downloadable PDF; tell me which format you prefer.
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <p>2025 - ITCSpace</p>
+    </footer>
+  </body>
+</html>
