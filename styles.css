@@ -680,3 +680,9 @@ main {
 .accordion-body ol li {
   list-style: decimal;
 }
+
+.dept-lists {
+  background: var(--brand-darker);
+  padding: 40px;
+  border-radius: 20px;
+}
