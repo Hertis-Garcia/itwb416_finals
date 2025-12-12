@@ -6,7 +6,6 @@
     <title>Faculty — ITCSpace</title>
     <link rel="icon" type="image/x-icon" href="/images/logo.jpg" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="faculty.css" />
   </head>
   <body>
     <header>
@@ -25,11 +24,12 @@
       </div>
 
       <nav class="header-nav">
+        <a href="index.html">Home</a>
         <a href="about.html">About Us</a>
-        <a href="index.html#admissions">Admissions</a>
         <a href="faculty.html">Faculty</a>
         <a href="programs.html">Program</a>
-        <img src="images/icon.jpg" alt="User Icon" />
+        <a href="contact.html">Contact</a>
+        <a href="services.html">Services</a>
       </nav>
     </header>
 
@@ -46,72 +46,93 @@
       <section class="pyramid" aria-label="Faculty Pyramid">
         <div class="row r-top">
           <article class="faculty-card highlight">
-            <img src="images/dev-placeholder.jpg" alt="Dean" />
-            <h3>Prof. Juan Dela Cruz</h3>
+            <img src="images/faculty/mitschek.png" alt="Dean" />
+            <h3>Marivic R. Mitschek</h3>
             <p class="role">College Dean</p>
           </article>
         </div>
 
         <div class="row r-2">
           <article class="faculty-card">
-            <img src="images/dev-placeholder.jpg" alt="Chair 1" />
-            <h3>Prof. Juan Dela Cruz</h3>
-            <p class="role">Program Chair — Software Engineering</p>
+            <img src="images/faculty/naz.png" alt="Chair 1" />
+            <h3>Sherry B. Naz</h3>
+            <p class="role">ITD Program Chair</p>
           </article>
 
           <article class="faculty-card">
-            <img src="images/dev-placeholder.jpg" alt="Chair 2" />
-            <h3>Prof. Juan Dela Cruz</h3>
-            <p class="role">Program Chair — Web Development</p>
-          </article>
-        </div>
-
-        <div class="row r-3">
-          <article class="faculty-card">
-            <img src="images/dev-placeholder.jpg" alt="Faculty" />
-            <h3>Prof. Juan Dela Cruz</h3>
-            <p class="role">Data Science</p>
-          </article>
-
-          <article class="faculty-card">
-            <img src="images/dev-placeholder.jpg" alt="Faculty" />
-            <h3>Prof. Juan Dela Cruz</h3>
-            <p class="role">Networks & Security</p>
-          </article>
-
-          <article class="faculty-card">
-            <img src="images/dev-placeholder.jpg" alt="Faculty" />
-            <h3>Prof. Juan Dela Cruz</h3>
-            <p class="role">Database Systems</p>
+            <img src="images/faculty/eduardo.png" alt="Chair 2" />
+            <h3>Josephine T. Eduardo</h3>
+            <p class="role">CSD Program Chair</p>
           </article>
         </div>
       </section>
 
-      <!-- Additional grid for all other faculty members -->
-      <section class="faculty-grid" aria-label="All Faculty">
-        <article class="faculty-card small">
-          <img src="images/dev-placeholder.jpg" alt="Faculty" />
-          <h4>Prof. Juan Dela Cruz</h4>
-          <p class="role">Software Lab Instructor</p>
-        </article>
+      <!-- START: Department rows (IT & CS) -->
+      <section class="dept-lists" aria-label="Department Faculty Lists">
+        <!-- IT Faculty -->
+        <div class="dept-list" id="it-faculty">
+          <h3 class="dept-title">IT Faculty</h3>
 
-        <article class="faculty-card small">
-          <img src="images/dev-placeholder.jpg" alt="Faculty" />
-          <h4>Prof. Juan Dela Cruz</h4>
-          <p class="role">Research Assistant</p>
-        </article>
+          <div class="dept-grid">
+            <article class="faculty-card small">
+              <img src="images/faculty/doctor.png" />
+              <h4>Juanito Doctor Jr.</h4>
+              <p class="role">Instructor</p>
+            </article>
 
-        <article class="faculty-card small">
-          <img src="images/dev-placeholder.jpg" alt="Faculty" />
-          <h4>Prof. Juan Dela Cruz</h4>
-          <p class="role">Human-Computer Interaction</p>
-        </article>
+            <article class="faculty-card small">
+              <img src="images/faculty/mojica.png" />
+              <h4>Azenith R. Mojica</h4>
+              <p class="role">Instructor</p>
+            </article>
 
-        <article class="faculty-card small">
-          <img src="images/dev-placeholder.jpg" alt="Faculty" />
-          <h4>Prof. Juan Dela Cruz</h4>
-          <p class="role">Systems Analyst</p>
-        </article>
+            <article class="faculty-card small">
+              <img src="images/faculty/rosas.png" />
+              <h4>Maryli F. Rosas</h4>
+              <p class="role">Instructor</p>
+            </article>
+
+            <article class="faculty-card small">
+              <img src="images/faculty/sermana.png" />
+              <h4>Rochelle D. Sermana</h4>
+              <p class="role">Instructor</p>
+            </article>
+          </div>
+        </div>
+
+        <!-- CS Faculty -->
+        <div class="dept-list" id="cs-faculty">
+          <h3 class="dept-title">CS Faculty</h3>
+
+          <div class="dept-grid">
+            <article class="faculty-card small">
+              <img src="images/faculty/cabalsa.png" />
+              <h4>Elsie Cabalsa</h4>
+              <p class="role">Instructor</p>
+            </article>
+
+            <article class="faculty-card small">
+              <img src="images/faculty/ocampo.png" />
+              <h4>Gerson De Ocampo</h4>
+              <p class="role">Instructor</p>
+            </article>
+
+            <article class="faculty-card small">
+              <img
+                src="images/faculty/herradura.png"
+                alt="CS - Placeholder 3"
+              />
+              <h4>Tita R. Herradura</h4>
+              <p class="role">Instructor</p>
+            </article>
+
+            <article class="faculty-card small">
+              <img src="images/faculty/manaois.png" />
+              <h4>Jennylinde R. Manaois</h4>
+              <p class="role">Instructor</p>
+            </article>
+          </div>
+        </div>
       </section>
     </main>
 

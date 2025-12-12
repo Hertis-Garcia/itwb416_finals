@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Student Services — ITCSpace</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo.jpg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-left">
+        <a href="index.html" title="Go to Homepage">
+          <img src="images/logo.jpg" alt="Logo" />
+        </a>
+        <h1>
+          <a
+            href="index.html"
+            title="Go to Homepage"
+            style="text-decoration: none; color: inherit"
+            >ITCSpace</a
+          >
+        </h1>
+      </div>
+
+      <nav class="header-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html" title="About CICS">About Us</a>
+        <a href="faculty.html" title="Faculty">Faculty</a>
+        <a href="programs.html" title="Programs">Program</a>
+        <a href="contact.html" title="Contact">Contact</a>
+        <a href="services.html">Services</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="about-hero" aria-labelledby="ss-hero-title">
+        <h2 id="ss-hero-title">Student Services</h2>
+        <p>
+          Purpose: Provide support and resources to students. Below are
+          services, policies, and contact pointers to help students navigate
+          academic advising, enrollment, internships, student organizations,
+          laboratory use, and financial assistance.
+        </p>
+      </section>
+
+      <div class="dept-lists" role="region" aria-label="Student services list">
+        <!-- Accordion container (white cards) -->
+        <div class="accordion" id="student-services-acc">
+          <!-- Academic Advising -->
+          <div
+            class="accordion-header"
+            tabindex="0"
+            data-target="adv-body"
+            aria-expanded="false"
+          >
+            <h4>Academic Advising</h4>
+            <span aria-hidden="true">▾</span>
+          </div>
+          <div
+            id="adv-body"
+            class="accordion-body"
+            style="display: none"
+            role="region"
+            aria-hidden="true"
+          >
+            <p class="accordion-text">
+              Academic advising ensures all students are guided by their
+              professors in each respective course. Faculty members allot
+              consultation hours outside the requisite classroom lectures to
+              make themselves available to address other student concerns.
+              However, schedules may vary so students should personally
+              coordinate and confirm consultation times with their professors.
+            </p>
+          </div>
+
+          <!-- Enrollment & Registration Guidelines -->
+          <div
+            class="accordion-header"
+            tabindex="0"
+            data-target="enroll-body"
+            aria-expanded="false"
+          >
+            <h4>Enrollment &amp; Registration Guidelines</h4>
+            <span aria-hidden="true">▾</span>
+          </div>
+          <div
+            id="enroll-body"
+            class="accordion-body"
+            style="display: none"
+            role="region"
+            aria-hidden="true"
+          >
+            <h4>Enrollment Policy</h4>
+            <p class="accordion-text">
+              A student is considered officially enrolled after making full or
+              initial payment of tuition and other fees. A registration
+              confirmation slip printed from the online enrollment facility
+              (OnE) may be used for payment in accredited payment centers and
+              banks or at the University cashiers. Once the University
+              officially acknowledges payment ("posting") in OnE, the student
+              may print the Certificate of Registration (COR) — Transaction 1.
+              Modification and registration of enrolled subjects will mean
+              Transaction 2 or 3.
+            </p>
+
+            <ul>
+              <li class="accordion-text">
+                A student may only modify registration online if Transaction 1
+                is complete (payment posted in OnE).
+              </li>
+              <li class="accordion-text">
+                Students are allowed a maximum of three transactions. A fourth
+                transaction may be requested case-by-case via an Enrollment
+                Transaction Request Form and is subject to University Registrar
+                approval and the corresponding fee.
+              </li>
+              <li class="accordion-text">
+                Students with unpaid balances or old accounts are not allowed to
+                enroll until cleared by the Accounting Office.
+              </li>
+              <li class="accordion-text">
+                Foreign students will be placed on hold and will only be cleared
+                upon presentation of certificate of eligibility to enroll.
+              </li>
+            </ul>
+
+            <p class="accordion-text">
+              For more information, visit the Registrar's enrollment page:
+              <a
+                href="https://www.dlsud.edu.ph/registrar/enrollment.htm"
+                target="_blank"
+                rel="noopener noreferrer"
+                >dlsud.edu.ph/registrar/enrollment.htm</a
+              >
+            </p>
+          </div>
+
+          <!-- Internship / OJT -->
+          <div
+            class="accordion-header"
+            tabindex="0"
+            data-target="ojt-body"
+            aria-expanded="false"
+          >
+            <h4>Internship / On-the-Job Training (OJT) Information</h4>
+            <span aria-hidden="true">▾</span>
+          </div>
+          <div
+            id="ojt-body"
+            class="accordion-body"
+            style="display: none"
+            role="region"
+            aria-hidden="true"
+          >
+            <p class="accordion-text">
+              The Internship/On-the-Job Training (OJT) is a mandatory component
+              designed to provide students with hands-on, real-world experience
+              in the IT industry, bridging the gap between classroom theory and
+              professional practice. Detailed procedures and placements are
+              discussed during the student's 4th year; students should monitor
+              program announcements and consult their program council
+              (CSPC/ITPC) or OJT coordinator for timelines and requirements.
+            </p>
+          </div>
+
+          <!-- Student Organizations -->
+          <div
+            class="accordion-header"
+            tabindex="0"
+            data-target="org-body"
+            aria-expanded="false"
+          >
+            <h4>Student Organizations</h4>
+            <span aria-hidden="true">▾</span>
+          </div>
+          <div
+            id="org-body"
+            class="accordion-body"
+            style="display: none"
+            role="region"
+            aria-hidden="true"
+          >
+            <p class="accordion-text">
+              A list of student groups that are active within the College of
+              Information and Computer Studies:
+            </p>
+
+            <ul>
+              <li class="accordion-text">
+                <strong>CICSSG</strong> — College of Information and Computer
+                Studies Student Government; represents and serves the CICS
+                student body.
+              </li>
+              <li class="accordion-text">
+                <strong>CSPC</strong> — Computer Studies Program Council;
+                addresses educational and developmental needs for Computer
+                Science students.
+              </li>
+              <li class="accordion-text">
+                <strong>ITPC</strong> — Information Technology Program Council;
+                represents IT students and promotes professional growth.
+              </li>
+              <li class="accordion-text">
+                <strong>EVRLAST</strong> — a dance organization formed by
+                students from CS and IT for creative and extracurricular
+                activities.
+              </li>
+            </ul>
+
+            <p class="accordion-text">
+              Clubs (examples): IT/CS Society, Programming Club, Robotics Club —
+              contact the program councils (CSPC, ITPC) or CICSSG for membership
+              and event schedules.
+            </p>
+          </div>
+
+          <!-- Laboratory Policies -->
+          <div
+            class="accordion-header"
+            tabindex="0"
+            data-target="lab-body"
+            aria-expanded="false"
+          >
+            <h4>Laboratory Policies</h4>
+            <span aria-hidden="true">▾</span>
+          </div>
+          <div
+            id="lab-body"
+            class="accordion-body"
+            style="display: none"
+            role="region"
+            aria-hidden="true"
+          >
+            <p class="accordion-text">
+              These rules are established to ensure efficient operation and
+              maintenance of computer laboratory resources for academic
+              purposes.
+            </p>
+
+            <ol>
+              <li>
+                <strong>Usage Priority and Conduct</strong>
+                <ul>
+                  <li class="accordion-text">
+                    Academic Priority: laboratory computers are primarily for
+                    coursework, projects, and research. Academic users have
+                    priority.
+                  </li>
+                  <li class="accordion-text">
+                    Silence and Order: observe silence; set phones to silent;
+                    avoid disruptive activity.
+                  </li>
+                  <li class="accordion-text">
+                    No Loitering: labs are for productive use; no sleeping or
+                    excessive socializing.
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <strong>Equipment and Facility Care</strong>
+                <ul>
+                  <li class="accordion-text">
+                    Food &amp; Drink: eating, drinking, and chewing gum are
+                    strictly prohibited.
+                  </li>
+                  <li class="accordion-text">
+                    No Tampering: do not move, unplug, dismantle, or tamper with
+                    hardware; report malfunctions immediately.
+                  </li>
+                  <li class="accordion-text">
+                    Cleanliness: keep workstations tidy and dispose of trash
+                    properly.
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <strong>Network and Ethical Use</strong>
+                <ul>
+                  <li class="accordion-text">
+                    Academic Use Only: internet access is for educational and
+                    research activities.
+                  </li>
+                  <li class="accordion-text">
+                    Prohibited Content: accessing or distributing sexually
+                    explicit, offensive, or malicious material is prohibited and
+                    may result in disciplinary action.
+                  </li>
+                  <li class="accordion-text">
+                    Respect Intellectual Property: do not copy or distribute
+                    copyrighted software or illegal files.
+                  </li>
+                  <li class="accordion-text">
+                    Network Abuse: playing games, running network-intensive apps
+                    for non-academic use, or unauthorized scanning/hacking is
+                    forbidden.
+                  </li>
+                  <li class="accordion-text">
+                    Log Off: always log off and close applications before
+                    leaving a workstation.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+
+            <h4>Computer Lab Rules &amp; Booking</h4>
+            <p class="accordion-text">
+              Booking procedures and lab schedules are typically posted in the
+              department or managed via the Laboratory Assistant. Check bulletin
+              boards or contact your program office for the current lab booking
+              process and times.
+            </p>
+          </div>
+
+          <!-- Scholarships & Financial Assistance -->
+          <div
+            class="accordion-header"
+            tabindex="0"
+            data-target="scholar-body"
+            aria-expanded="false"
+          >
+            <h4>Scholarships &amp; Financial Assistance</h4>
+            <span aria-hidden="true">▾</span>
+          </div>
+          <div
+            id="scholar-body"
+            class="accordion-body"
+            style="display: none"
+            role="region"
+            aria-hidden="true"
+          >
+            <p class="accordion-text">
+              The Scholarship Unit at De La Salle University–Dasmariñas is
+              committed to making Lasallian education accessible through various
+              scholarship programs and supportive services. The unit assists
+              eligible students with grants and scholarship opportunities to
+              reduce financial barriers while promoting academic excellence and
+              Lasallian values.
+            </p>
+            <p class="accordion-text">
+              For details about scholarship types, application procedures, and
+              deadlines, visit:
+              <a
+                href="https://www.dlsud.edu.ph/scholarship/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >dlsud.edu.ph/scholarship/</a
+              >
+            </p>
+          </div>
+
+          <!-- Downloadable Forms -->
+          <div
+            class="accordion-header"
+            tabindex="0"
+            data-target="forms-body"
+            aria-expanded="false"
+          >
+            <h4>Downloadable Forms</h4>
+            <span aria-hidden="true">▾</span>
+          </div>
+          <div
+            id="forms-body"
+            class="accordion-body"
+            style="display: none"
+            role="region"
+            aria-hidden="true"
+          >
+            <p class="accordion-text">
+              For Official Downloadable Forms of the University, please sign in
+              to your respective account in DLSU-D portal and visit the
+              following link:
+              <a
+                href="https://portal.dlsud.edu.ph/mydlsud/Resources/Institutional.aspx"
+                target="_blank"
+                rel="noopener noreferrer"
+                >portal.dlsud.edu.ph/mydlsud/Resources/Institutional.aspx</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 - ITCSpace</p>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const headers = Array.from(
+          document.querySelectorAll(".accordion-header")
+        );
+        headers.forEach(function (h) {
+          function toggle() {
+            const targetId = h.getAttribute("data-target");
+            const body = document.getElementById(targetId);
+            const isOpen =
+              body && window.getComputedStyle(body).display === "block";
+
+            // close all
+            document.querySelectorAll(".accordion-body").forEach(function (b) {
+              b.style.display = "none";
+              b.setAttribute("aria-hidden", "true");
+              const prev = b.previousElementSibling;
+              if (prev) prev.setAttribute("aria-expanded", "false");
+            });
+
+            // open selected if it was closed
+            if (body && !isOpen) {
+              body.style.display = "block";
+              body.setAttribute("aria-hidden", "false");
+              h.setAttribute("aria-expanded", "true");
+            } else if (body) {
+              h.setAttribute("aria-expanded", "false");
+            }
+          }
+          h.addEventListener("click", toggle);
+          h.addEventListener("keydown", function (e) {
+            if (e.key === "Enter" || e.key === " ") {
+              e.preventDefault();
+              toggle();
+            }
+          });
+        });
+      });
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
